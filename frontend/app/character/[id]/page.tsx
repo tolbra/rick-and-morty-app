@@ -1,7 +1,16 @@
+// app/character/[id]/page.tsx
+
 import { Navbar } from "@/components/navbar"
 import { CharacterDetails } from "@/components/character-details"
 
-export default function CharacterPage({ params }: { params: { id: string } }) {
+interface PageProps {
+  params: {
+    id: string
+  }
+  searchParams: { [key: string]: string | string[] | undefined }
+}
+
+export default function CharacterPage({ params }: PageProps) {
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
