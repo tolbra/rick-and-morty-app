@@ -1,7 +1,16 @@
+// app/location/[id]/page.tsx
+
 import { Navbar } from "@/components/navbar"
 import { LocationDetails } from "@/components/location-detalis"
 
-export default function LocationPage({ params }: { params: { id: string } }) {
+interface PageProps {
+  params: {
+    id: string
+  }
+  searchParams: { [key: string]: string | string[] | undefined }
+}
+
+export default function LocationPage({ params }: PageProps) {
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
