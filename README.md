@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="[[https://upload.wikimedia.org/wikipedia/en/6/6f/Rick_and_Morty_title_card.png](https://e7.pngegg.com/pngimages/479/224/png-clipart-rick-and-morty-rick-sanchez-rick-and-morty-season-3-adult-swim-rick-and-morty-season-2-episode-rick-and-morty-grass-fictional-character.png](https://1000logos.net/wp-content/uploads/2022/03/Rick-and-Morty.png))" width="400" alt="Rick and Morty Explorer" />
+  <img src="(![image](https://github.com/user-attachments/assets/f80c514b-0d02-4a4a-8f0f-28d7c87232d1)
+)" width="400" alt="Rick and Morty Explorer" />
 </p>
 
 <h1 align="center">Rick and Morty Explorer</h1>
@@ -7,7 +8,7 @@
 <p align="center">
   Fullstack app to explore the multiverse — Search characters, chat with Rick, and toggle Drunk Mode!<br/>
   <br/>
-  <a href="[https://your-deployed-site-link.com](https://drive.google.com/file/d/1KAqhNdw76UhITF5PA8pPqPKQZNv3sxDS/view?usp=sharing)"><strong>🚀 Video »</strong></a>
+  <a href="https://drive.google.com/file/d/1KAqhNdw76UhITF5PA8pPqPKQZNv3sxDS/view?usp=sharing"><strong>🚀 Video »</strong></a>
 </p>
 
 ---
