@@ -1,0 +1,19 @@
+# Frontend
+/frontend/node_modules/
+/frontend/.next/
+/frontend/dist/
+/frontend/.npm/
+/frontend/.cache/
+
+# Backend
+/backend/venv/
+/backend/__pycache__/
+/backend/*.pyc
+
+# Общие
+*.env
+.DS_Store
+.vscode/
+.idea/
+npm-debug.log*
+yarn-error.log*
