@@ -1,16 +1,18 @@
-// app/character/[id]/page.tsx
-
 import { Navbar } from "@/components/navbar"
 import { CharacterDetails } from "@/components/character-details"
+import type { Metadata } from "next"
 
-interface PageProps {
+interface CharacterPageProps {
   params: {
     id: string
   }
-  searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export default function CharacterPage({ params }: PageProps) {
+export const metadata: Metadata = {
+  title: "Character Details",
+}
+
+export default function CharacterPage({ params }: CharacterPageProps) {
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
@@ -18,5 +20,5 @@ export default function CharacterPage({ params }: PageProps) {
         <CharacterDetails id={params.id} />
       </div>
     </main>
-  )
+  );
 }

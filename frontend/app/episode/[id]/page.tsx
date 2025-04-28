@@ -22,3 +22,5 @@ export default function CharacterPage({ params }: CharacterPageProps) {
     </main>
   );
 }
+
+//NEXT_PUBLIC_BACKEND_URL=https://rick-and-morty-app-backend.up.railway.app
